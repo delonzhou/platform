@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+api-server/api-server.iml
+pay-api/pay-api.iml
+platform.iml
+qrcode-api/qrcode-api.iml
