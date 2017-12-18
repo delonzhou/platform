@@ -181,9 +181,9 @@ public class AliPay {
             LOGGER.error("回调数据校验异常", e);
             throw new RuntimeException("回调参数校验异常");
         }
-      /*  if (!check) {
+        if (!check) {
             throw new RuntimeException("回调参数校验失败");
-        }*/
+        }
         PayResult payResult = new PayResult();
         payResult.setRawData(notifyParam);
         String resultCode = notifyParam.get("trade_status");

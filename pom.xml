@@ -9,8 +9,18 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>common-api</module>
+        <module>qrcode-api</module>
+        <module>pay-api</module>
+        <module>excel-api</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
+        <zip4j.version>1.8</zip4j.version>
+        <poi.version>1.8</poi.version>
+        <poi.ooxml.version>1.8</poi.ooxml.version>
         <slf4j.version>1.7.13</slf4j.version>
         <jackson.version>2.8.8</jackson.version>
         <spring.data.releasetrain.version>2.8.8</spring.data.releasetrain.version>
